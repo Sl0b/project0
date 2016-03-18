@@ -13,74 +13,38 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:textAppearanceLarge"
-        android:textStyle="bold"
         android:layout_gravity="center_horizontal"
-        android:text="My Nanodegree Apps!" />
+        android:layout_marginBottom="24dp"
+        android:text="@string/header_title"
+        android:textAppearance="?android:textAppearanceLarge" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:layout_marginLeft="72dp"
-        android:layout_marginRight="72dp"
-        android:background="#009688"
-        android:textColor="@android:color/white"
-        android:text="Spotify Streamer"
-        android:onClick="launchApp" />
+        style="@style/ButtonStyle"
+        android:onClick="launchApp"
+        android:text="@string/spotify_button_text" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginLeft="72dp"
-        android:layout_marginRight="72dp"
-        android:background="#009688"
-        android:textColor="@android:color/white"
-        android:text="Scores App"
-        android:onClick="launchApp" />
+        style="@style/ButtonStyle"
+        android:onClick="launchApp"
+        android:text="@string/score_button_text" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginLeft="72dp"
-        android:layout_marginRight="72dp"
-        android:background="#009688"
-        android:textColor="@android:color/white"
-        android:text="Library App"
-        android:onClick="launchApp" />
+        style="@style/ButtonStyle"
+        android:onClick="launchApp"
+        android:text="@string/library_button_text" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginLeft="72dp"
-        android:layout_marginRight="72dp"
-        android:background="#009688"
-        android:textColor="@android:color/white"
-        android:text="Build It Bigger"
-        android:onClick="launchApp" />
+        style="@style/ButtonStyle"
+        android:onClick="launchApp"
+        android:text="@string/build_button_text" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginLeft="72dp"
-        android:layout_marginRight="72dp"
-        android:background="#009688"
-        android:textColor="@android:color/white"
-        android:text="XYZ Reader"
-        android:onClick="launchApp" />
+        style="@style/ButtonStyle"
+        android:onClick="launchApp"
+        android:text="@string/xyz_button_text" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginLeft="72dp"
-        android:layout_marginRight="72dp"
-        android:background="#FFA000"
-        android:textColor="@android:color/white"
-        android:text="Capstone"
-        android:onClick="launchApp" />
+        style="@style/ButtonStyle.Capstone"
+        android:onClick="launchApp"
+        android:text="@string/capstone_button_text" />
 </LinearLayout>
